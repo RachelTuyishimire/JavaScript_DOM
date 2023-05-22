@@ -2,6 +2,8 @@
 // silver
 
 document.getElementById('body').style.backgroundColor="silver";
+
+
 // Change the font color for h1 title tag to
 // green
 document.getElementById('title').style.color = "green"
@@ -20,9 +22,9 @@ document.getElementById('h3').style.textTransform = "uppercase"
 document.getElementById('vegs').style.textTransform = "uppercase"
 // Add one more fruit to the fruits list
 let fruit = document.createElement('li');
-fruit.innerHTML = "Apple"
+fruit.innerHTML = "Pineapple"
 document.getElementById('fruList').appendChild(fruit)
-// document.getElementById('h3').style.marginLeft = "10%"
+document.getElementById('h3').style.marginLeft = "10%"
 
 
 
